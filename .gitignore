@@ -1,0 +1,52 @@
+# ===============================
+# Node / Package manager
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Build output
+# ===============================
+dist/
+dist-ssr/
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.local
+.env.*.local
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Testing
+# ===============================
+coverage/
+
+# ===============================
+# Vite / Cache
+# ===============================
+.vite/
+
+# ===============================
+# ❗ IMPORTANT NOTES
+# ===============================
+# Jangan ignore:
+# - public/
+# - *.png *.jpg *.svg
+# Asset harus ikut ke repo biar ke-deploy
