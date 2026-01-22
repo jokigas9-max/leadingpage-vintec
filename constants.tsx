@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProfileData } from './types';
-import vintecLogo from './vinteclogo.jpeg';
+import vintecLogo from '/public/vinteclogo.jpeg';
 
 export const SITE_DATA: ProfileData = {
   name: "Vintec",

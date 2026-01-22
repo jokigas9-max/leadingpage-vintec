@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Profile from './components/Profile';
-import LinkCard from './components/LinkCard';
-import SocialIcons from './components/SocialIcons';
+import Profile from './src/components/Profile';
+import LinkCard from './src/components/LinkCard';
+import SocialIcons from './src/components/SocialIcons';
 import { SITE_DATA } from './constants';
 
 const BackgroundCode = () => {
